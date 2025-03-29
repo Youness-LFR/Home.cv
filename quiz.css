@@ -1,0 +1,68 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #310cc4;
+}
+
+/* Center container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* To add some space on small screens */
+}
+
+/* Style the form */
+#quizForm {
+    background-color: #48b3d4;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Titles */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Questions */
+p {
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    margin-right: 10px; 
+    margin-bottom: 5px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #190eb4;
+    color: rgb(13, 215, 238);
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button[type="submit"]:hover {
+    background-color: #6c8aa9;
+}
